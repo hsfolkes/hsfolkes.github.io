@@ -64,6 +64,26 @@
 			width: 23%;
 			display: inline-block;
 			}
+
+		button{
+			margin:auto;
+			display:block;
+			}
+
+		button{
+			padding:16px 32px;
+			font-size:22px;
+			font-weight:500;
+			color: white;
+			background: #333;
+			border:0;
+			font-weight:100;
+			}
+
+		button:hover{
+			background: #69D9E4;
+			color: black;
+			}
 			
       </style>   
   </head>
@@ -249,8 +269,13 @@
       </table>
 	  
 	  <br />
-	  <h4 style="text-align:center;">I was going to make a joke about sodium but ... Na.</h4>
+	  <h4 style="text-align:center;">I was going to make a joke about sodium but... </h4>
+	  <h4 id="punchline" style="display: none; text-align:center">Na.</h4>
 	  <br />
+	  
+	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
+	  
+	  <br /><br />
 
   </body>
 </html>

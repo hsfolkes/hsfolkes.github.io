@@ -72,6 +72,26 @@
 		.charli {
 			background-color: blue;
 			}
+
+		button{
+			margin:auto;
+			display:block;
+			}
+
+		button{
+			padding:16px 32px;
+			font-size:22px;
+			font-weight:500;
+			color: white;
+			background: #333;
+			border:0;
+			font-weight:100;
+			}
+
+		button:hover{
+			background: #69D9E4;
+			color: black;
+			}
 			
       </style>   
   </head>
@@ -291,8 +311,13 @@
       </table>
 	  
 	  <br />
-	  <h4 style="text-align:center;">I would tell you a Chemistry joke if I knew that it would get a good reaction.</h4>
+	  <h4 style="text-align:center;">I would tell you a Chemistry joke if ...</h4>
+	  <h4 id="punchline" style="display: none; text-align:center">I knew that it would get a good reaction.</h4>
 	  <br />
+	  
+	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
+	  
+	  <br /><br />
 
   </body>
 </html>
