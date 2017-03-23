@@ -55,7 +55,7 @@
                   }
 
           .active {
-              background-color: #4CAF50;
+              background-color: #69D9E4;
           }
 
 		p.padding{
@@ -101,6 +101,26 @@
 		text-align: center;
 		
 		}
+
+		button{
+			margin:auto;
+			display:block;
+			}
+
+		button{
+			padding:16px 32px;
+			font-size:22px;
+			font-weight:500;
+			color: white;
+			background: #333;
+			border:0;
+			font-weight:100;
+			}
+
+		button:hover{
+			background: #69D9E4;
+			color: black;
+			}
 			
 
       </style>   
@@ -222,9 +242,15 @@
               <td><a href="" class="padding">Gas</a></td>
           </tr>
       </section>
+	  
+	  <br />
+	  <h4 style="text-align:center;">Do you have any sodium hypobromite?</h4>
+	  <h4 id="punchline" style="display: none; text-align:center">NaBrO.</h4>
+	  <br />
+	  
+	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
+	  
+	  <br /><br />
 
-
-    <h3 style="text-align: center;">Time for a joke!</h3>
-    <h1 class="titles">Do you have any sodium hypobromite? NaBrO</h1>
   </body>
 </html>
