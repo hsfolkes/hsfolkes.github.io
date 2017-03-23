@@ -44,6 +44,27 @@
 			width: 23%;
 			display: inline-block;
 			}
+
+		button{
+			margin:auto;
+			display:block;
+			}
+
+		button{
+			padding:16px 32px;
+			font-size:22px;
+			font-weight:500;
+			color: white;
+			background: #333;
+			border:0;
+			font-weight:100;
+			}
+
+		button:hover{
+			background: #69D9E4;
+			color: black;
+			}
+			
 			
       </style>   
   </head>
@@ -84,14 +105,16 @@
 			  <iframe width="560" height="315" src="https://www.youtube.com/embed/Rm-i1c7zr6Q" frameborder="0" allowfullscreen></iframe>
 			  </td>
           </tr>
-      </table>
+      </table>	
 
 	  <br />
-    <div align="center" >
-	  <h4 id="demo" style="display:none">What is the name of 007's Eskimo cousin? Polar Bond!</h4>
-	  <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me For A Chemistry Joke!</button>
-	</div>	  
-	  <br />		  
+	  <h4 style="text-align:center;">What is the name of 007's Eskimo cousin?</h4>
+	  <h4 id="punchline" style="display: none; text-align:center">Polar Bond!</h4>
+	  <br />
+	  
+	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
+	  
+	  <br /><br />	  
 
   </body>
 </html>

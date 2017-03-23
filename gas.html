@@ -44,6 +44,27 @@
 			width: 23%;
 			display: inline-block;
 			}
+
+					button{
+			margin:auto;
+			display:block;
+			}
+
+		button{
+			padding:16px 32px;
+			font-size:22px;
+			font-weight:500;
+			color: white;
+			background: #333;
+			border:0;
+			font-weight:100;
+			}
+
+		button:hover{
+			background: #69D9E4;
+			color: black;
+			}
+			
 			
       </style>   
   </head>
@@ -85,13 +106,16 @@
 			  <iframe width="560" height="315" src="https://www.youtube.com/embed/t5IDzsVTf-Q" frameborder="0" allowfullscreen></iframe>
 			  </td>
           </tr>
-      </table>
+      </table>	
+
+	  <br />
+	  <h4 style="text-align:center;">Have you heard the one about a chemist who was reading a book about helium?</h4>
+	  <h4 id="punchline" style="display: none; text-align:center">He just couldn't put it down.</h4>
+	  <br />
 	  
-    <div align="center" >
-	  <h4 id="demo" style="display:none">Have you heard the one about a chemist who was reading a book about helium? He just couldn't put it down.</h4>
-	  <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me For A Chemistry Joke!</button>
-	</div>	  
-	  <br />	  
+	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
+	  
+	  <br /><br />	  
 
   </body>
 </html>
