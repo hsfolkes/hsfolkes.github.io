@@ -2,15 +2,8 @@
 <html lang="en">
 
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="The periodic table of elements.">
-    <meta name="keywords" content="elements, periodic table, phases, families">
-    <link rel="shortcut icon" href="WebImages/chemistry_logo.png">
-	
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Periodic Table of the Elements</title>
 
-	<link href="style.css" rel="STYLESHEET" type="text/css" /> 
     <!-- Bootstrap -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,18 +12,67 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
 	<style>
+	
+
+	
 	   .carousel-inner > .item > img,
        .carousel-inner > .item > a > img {
        width: 100%;
        margin: auto;
+	   
 		}
 		
 		.carousel-caption {
 		top: 0;
 		bottom: auto;
 		}
+          ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+          }
+		  
+		  .carousel-indicators{
+		      margin-left: 0%;
+		  }
 
+          li {
+              float: left;
+          }
 
+              li a {
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+              }
+
+                  li a:hover:not(.active) {
+                      background-color: #111;
+                  }
+
+          .active {
+              background-color: #4CAF50;
+          }
+
+		p.padding{
+		text-align: center; 
+		background-color: gray; 
+		padding-left: 20%; 
+		padding-right:20%; 
+		color: white;
+		margin-left: 17%;
+		margin-right:17%;
+		}
+		  
+		a.padding{
+		padding-left: 20px; 
+		padding-right: 20px;
+			}
+		
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
@@ -45,11 +87,26 @@
         tr:nth-child(even) {
         background-color: #dddddd;
             }
+		h1.titles {
+			margin: 90px auto 0 auto;
+			font-size: 48px;
+			font-weight: 200;
+			line-height: 60px;
+			text-align: center;
+			max-width: 910px;
+			color: #333;
+		}
+		
+		section{
+		text-align: center;
+		
+		}
 			
 
       </style>   
   </head>
   <body>
+	
     <h1>Periodic Table of the Elements</h1>
 
 
@@ -61,7 +118,7 @@
           <li><a href="phase.html">Phase</a></li>
       </ul>   
 
-<div class="container">
+<div class="container" style="background-color: black; width: 100%">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -117,6 +174,57 @@
   </div>
 </div>
 	  
+<section class="video" id="video">
+  <h1 class="titles">What are elements?</h1>
+  <p class="padding"> One of over a hundred substances that cannot 
+  be chemically interconverted or broken down into simpler substances and are primary 
+  constituents of matter. Each element is distinguished by its unique atomic number
+  </p>  
+  <iframe width="853" height="480" src="https://www.youtube.com/embed/0RRVV4Diomg" frameborder="0" allowfullscreen></iframe>
+</section>
 
+	<section>
+	<h1> Interested? Check us out below </h1>
+          <tr>
+              <h2>Elements:</h2>
+          </tr>
+          <tr>
+              <td><a href="argon.html" class="padding">Argon   </a></td>
+          </tr>
+          <tr>
+              <td><a href="fluorine.html" class="padding">Fluorine  </a></td>
+          </tr>
+          <tr>
+              <td><a href="sodium.html" class="padding">Sodium</a></td>
+          </tr>
+		  
+		                <h2>Families:</h2>
+          </tr>
+          <tr>
+              <td><a href="alkalimetal.html" class="padding">Alkali   </a></td>
+          </tr>
+          <tr>
+              <td><a href="" class="padding">Halogens  </a></td>
+          </tr>
+          <tr>
+              <td><a href="" class="padding">Noble Gases</a></td>
+          </tr>
+		  
+		                <h2>Phases:</h2>
+          </tr>
+          <tr>
+              <td><a href="" class="padding">Solid   </a></td>
+          </tr>
+          <tr>
+              <td><a href="" class="padding">Liquid  </a></td>
+          </tr>
+          <tr>
+              <td><a href="" class="padding">Gas</a></td>
+          </tr>
+      </section>
+
+
+    <h3 style="text-align: center;">Time for a joke!</h3>
+    <h1 class="titles">Do you have any sodium hypobromite? NaBrO</h1>
   </body>
 </html>
