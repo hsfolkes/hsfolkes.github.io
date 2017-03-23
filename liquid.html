@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Periodic Table of the Elements</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+     <style>
+          ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+          }
+
+          li {
+              float: left;
+          }
+
+              li a {
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+              }
+
+                  li a:hover:not(.active) {
+                      background-color: #111;
+                  }
+
+          .active {
+              background-color: #4CAF50;
+          }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+           }
+
+        td, th {
+            text-align: left;
+            padding: 8px;
+            }
+
+        tr:nth-child(even) {
+        background-color: #dddddd;
+            }
+
+		h3.myIntroTitle {
+			padding-left: 50px;
+			floa: left;
+			}
+		p.myIntroduction {
+			padding-left: 50px;
+			float: left;
+			}
+		
+		.inline { 
+			width: 23%;
+			display: inline-block;
+			}
+
+					button{
+			margin:auto;
+			display:block;
+			}
+
+		button{
+			padding:16px 32px;
+			font-size:22px;
+			font-weight:500;
+			color: white;
+			background: #333;
+			border:0;
+			font-weight:100;
+			}
+
+		button:hover{
+			background: #69D9E4;
+			color: black;
+			}
+			
+      </style>   
+  </head>
+  <body>
+    <h1>Periodic Table of the Elements</h1>
+
+
+      <ul>
+
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="element.html">Element</a></li>
+          <li><a href="family.html">Family</a></li>
+          <li><a href="phase.html">Phase</a></li>
+		  
+      </ul>   
+
+      <br>
+      <h2 align="center"><b>Liquid State</b></h2>
+	  <br />
+	  
+      <img src="WebImages/liquid_water.png" alt="Water" id="Liquid" width=50% style="float: right;" />
+	  <div class="myIntroduction"><h3 style="padding-left: 50px"><b>About Liquids:</b></h3>
+      <p style="padding-left: 50px">Liquid is one of the three foundamental states of matter. It is the only state that has a definite volume without a defined shape. This means that matter in a liquid state will conform to the shape of whatever container it is. For example, if you took a glass of water and poured it onto a flat table, the amount of water present (volume) would not change but the shape would be different. This is arguably the most unique aspect of liquids.
+      </p>
+      <p style="padding-left: 50px">Liquids share similar properties with both solids and gases. Like a solid, liquids are considered condensed matter and like gasses, liquids are considered to be fluid. The most common subtance found in liquid form is water. Although liquid water is the most common form of matter on planet Earth, the liquid <a href="phase.html">phase</a> is actually the least commonly found of the three states of matter in the Universe. This is becuase liquids only occur in a narrow temperature and pressure range.
+      </p>
+      <p style="padding-left: 50px">Additionally, liquids are a large part of the search for extraterrestrial life, as it is widely believed that water is a key foundation for the development of living beings. 
+	  </p>
+      </div>
+      </body>
+      <br />
+      <br />
+      <p style="text-indent:3em">Examples of Liquids: 
+      </p>
+      <p style="text-align: center";><img src="WebImages/PhaseChanges.jpg" alt="PhaseChanges" id="PhaseLiquid" width=25% style="text-align:center" />
+	  
+	  <br /><h3 style="text-align:center;"><b>Interesting Facts About Water</b></h3>
+	  <br /><h3 style="text-indent:5em;"> - Up to 60% of an adult human body consists of water.
+ 	  <br /><h3 style="text-indent:5em;"> - Approximatley 71% of Earth's surface is water.
+ 	  <br /><h3 style="text-indent:5em;"> - The human body can only survive about a week without water.
+ 	  <br /><h3 style="text-indent:5em;"> - By the time a person feels thirsty, they have lost about 1% of their body's water content.
+ 	  <br /><h3 style="text-indent:5em;"> - The average person uses 100,000 gallons of water per year.
+	  
+	  <br />
+	  <br />
+	  <br /><h5 style="text-align:center;">Check out the videos below!</h5>
+      <table>
+          <tr>
+              <td style="text-align:center">
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/5XpU5M0ZCKM" frameborder="0" allowfullscreen></iframe>
+			  </td>
+              <td style="text-align:center">
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/8ma4kW3xVT0" frameborder="0" allowfullscreen></iframe>
+			  </td>
+          </tr>
+      </table>
+	  
+	  <br />
+	  <h4 style="text-align:center;">Two chemists go into a bar. The first one says "I think I'll have an H2O." The second one says "I think I'll have an H2O too"...</h4>
+	  <h4 id="punchline" style="display: none; text-align:center">and he died.</h4>
+	  <br />
+	  
+	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
+	  
+	  <br/><h6 style="text-align:center;";>Hint: H202 is hydrogen peroxide and will kill you if you drink it.</h6>
+	  
+	  <br /><br />
+
+  </body>
+</html>
