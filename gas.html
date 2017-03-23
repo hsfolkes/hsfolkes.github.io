@@ -2,39 +2,19 @@
 <html lang="en">
 
   <head>
-    <title>Gas Phase</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="The periodic table of elements.">
+    <meta name="keywords" content="elements, periodic table, phases, families">
+    <link rel="shortcut icon" href="WebImages/chemistry_logo.png">
+	
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Periodic Table of the Elements</title>
 
+	<link href="style.css" rel="STYLESHEET" type="text/css" /> 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 
      <style>
-          ul {
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-              overflow: hidden;
-              background-color: #333;
-          }
-
-          li {
-              float: left;
-          }
-
-              li a {
-                  display: block;
-                  color: white;
-                  text-align: center;
-                  padding: 14px 16px;
-                  text-decoration: none;
-              }
-
-                  li a:hover:not(.active) {
-                      background-color: #111;
-                  }
-
-          .active {
-              background-color: #69D9E4;
-          }
 
         table {
             font-family: arial, sans-serif;
@@ -106,11 +86,12 @@
 			  </td>
           </tr>
       </table>
-
-      <br />
-	  <h4 style="text-align:center;">Have you heard the one about a chemist who was reading a book about helium? He just couldn't put it down.</h4>
-	  <br />
 	  
+    <div align="center" >
+	  <h4 id="demo" style="display:none">Have you heard the one about a chemist who was reading a book about helium? He just couldn't put it down.</h4>
+	  <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me For A Chemistry Joke!</button>
+	</div>	  
+	  <br />	  
 
   </body>
 </html>
