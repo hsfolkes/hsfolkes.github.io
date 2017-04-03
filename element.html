@@ -14,21 +14,27 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 
-     <style>
+	<!-- JavaScript for data table sortability-->
+    <script src="sorttable.js"></script>
+	
+	<style>
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
             width: 100%;
-           }
+           } 
 
         td, th {
             text-align: left;
             padding: 8px;
             }
 
-        tr:nth-child(even) {
+        tr:nth-child(odd) {
         background-color: #dddddd;
             }
+		table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+		content: " \25B4\25BE" 
+		}	
       </style>   
   </head>
   <body>
@@ -52,8 +58,8 @@
           <p style="text-align:center;"><img src="WebImages/element_logo.jpg" alt="Element Log" id="elementID" width=50% /></p> 
       </div>
 
-      <table>
-          <tr>
+      <table class="sortable">
+          <tr style="background-color: white">
               <th>Name</th>
               <th>Atomic Number</th>
               <th>Symbol</th>
@@ -85,7 +91,31 @@
 			  <td><a href="alkalimetal.html">Alkali Metal</a></td>
               <td><a href="solid.html">Solid</a></td>
           </tr>
+          <tr>
+              <td><a href="mercury.html">Mercury</a></td>
+              <td>80</td>
+              <td>Hg</td>
+              <td>20.59</td>
+			  <td><a href="transitionmetal.html">Transition Metal</a></td>
+              <td><a href="liquid.html">Liquid</a></td>
+          </tr>
+          <tr>
+              <td><a href="gold.html">Gold</a></td>
+              <td>79</td>
+              <td>Au</td>
+              <td>196.96655</td>
+			  <td><a href="transitionmetal.html">Transition Metal</a></td>
+              <td><a href="solid.html">Solid</a></td>
+          </tr>		  
+          <tr>
+              <td><a href="iron.html">Iron</a></td>
+              <td>26</td>
+              <td>Fe</td>
+              <td>55.845</td>
+			  <td><a href="transitionmetal.html">Transition Metal</a></td>
+              <td><a href="solid.html">Solid</a></td>
+          </tr>			  
       </table>
-
+	  <br /><br />
   </body>
 </html>

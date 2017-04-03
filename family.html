@@ -14,6 +14,9 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 
+	<!-- JavaScript for data table sortability-->
+    <script src="sorttable.js"></script>
+	
     <style>
 
         table {
@@ -27,9 +30,13 @@
             padding: 8px;
         }
 
-        tr:nth-child(even) {
+        tr:nth-child(odd) {
             background-color: #dddddd;
         }
+
+		table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+		content: " \25B4\25BE" 
+		}		
     </style>
 </head>
 <body>
@@ -54,8 +61,8 @@
         <p style="text-align:center;"><img src="WebImages/families.jpg" alt="Families" id="familyID" height=50% width=60% /></p> 
     </div>
 
-    <table>
-        <tr>
+      <table class="sortable">
+          <tr style="background-color:white">
             <th>Name</th>
             <th>Family Number</th>
             <th>Number of Elements</th>
@@ -83,7 +90,14 @@
             <td><a href="argon.html">Argon</a></td>
             <td><a href="gas.html">Gas</a></td>
         </tr>
+        <tr>
+            <td><a href="transitionmetal.html">Transition Metals</a></td>
+            <td>N/A</td>
+            <td>38</td>
+            <td><a href="iron.html">Iron</a></td>
+            <td><a href="gas.html">Solid</a>, <a href="liquid.html">Liquid</a</td>
+        </tr>		
     </table>
-
+	<br /><br />
 </body>
 </html>
