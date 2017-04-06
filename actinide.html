@@ -14,13 +14,18 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 
+	<!-- JavaScript for data table sortability-->
+    <script src="sorttable.js"></script>
+		
      <style>
-
 
         table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
-            width: 100%;
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+			
            }
 
         td, th {
@@ -28,9 +33,10 @@
             padding: 8px;
             }
 
-        tr:nth-child(even) {
-        background-color: #dddddd;
-            }
+		.normal {
+            text-align: left;
+            padding: 8px;
+            }			
 
 		h3.myIntroTitle {
 			padding-left: 50px;
@@ -73,6 +79,7 @@
 			background: #69D9E4;
 			color: black;
 			}
+
 		table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
 		content: " \25B4\25BE" 
 		}		
@@ -110,122 +117,126 @@ table.sortable tbody tr::before {
 	  <br />
 	  
 	        <table>
-          <tr style="background-color: white">
-              <td style="text-align:center" rowspan="5"><img src="WebImages/actinide.png" alt="Actinide" id="actinideID" width=100% /></td>
+          <tr style="border-bottom: white">
+              <td style="text-align:center" rowspan="5"><img src="WebImages/actinide.png" alt="TransitionMetal" id="transitionmetalID" width=100% /></td>
 			  <td colspan="4"><h3><b>Common Characteristics</b></h3></td>
 			  <td></td>
 			  <td></td>
           </tr>
-		  <tr style="background-color: white">
+		  <tr style="border-bottom:  white">
 			  <td>Radioactive</td>
-			  <td>Unstable</td>
-			  <td>Synthetically produced</td>
-			  <td>Metallic</td>
-		  </tr>
-		  <tr style="background-color: white">
-			  <td>Silver or Silvery-White</td>
-			  <td>Hazardous</td>
-			  <td>Pyrophoric</td>
-			  <td>Very Dense</td>
+        <td>Unstable</td>
+        <td>Synthetically produced</td>
+        <td>Metallic</td>
 		  </tr>
 		  <tr style="background-color: white">
 			  <td>Soft</td>
-			  <td>Malleable</td>
-			  <td>Ductile</td>
-			  <td>Paramagnetic</td>
+        <td>Malleable</td>
+        <td>Ductile</td>
+        <td>Paramagnetic</td>
+		  </tr>
+		  <tr style="background-color: white">
+			  <td>Silver or Silvery-White</td>
+        <td>Hazardous</td>
+        <td>Pyrophoric</td>
+        <td>Very Dense</td>
 		  </tr>
 		  <tr style="background-color: white">
 			  <td>Solid at room temperature and pressure</td>
-			  <td>Prone to hybridization</td>
-			  <td>Water soluble</td>
-			  <td>Used in smoke detectors</td>
+        <td>Prone to hybridization</td>
+        <td>Water soluble</td>
+        <td>Used in smoke detectors</td></td>
 		  </tr>
       </table>
 
-	  <br /><h3 style="text-align:center;"><b>Meet the Family</b></h3><br />
 
-		<table class="sortable">
+	  <br /><h3 style="text-align:center;"><b>Meet the Family</b></h3><br />
+	  
+      <table class="sortable">
           <tr style="background-color: black; color: white">
               <th>Name</th>
               <th>Atomic Number</th>
               <th>Symbol</th>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Actinium</a></td>
+              <td>Actinium</td>
               <td>89</td>
               <td>Ac</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Thorium</a></td>
+              <td>Thorium</td>
               <td>90</td>
               <td>Th</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Protactinium</a></td>
+              <td>Protactinium</td>
               <td>91</td>
               <td>Pa</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Uranium</a></td>
+              <td>Uranium</td>
               <td>92</td>
               <td>U</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Neptunium</a></td>
+              <td>Neptunium</td>
               <td>93</td>
               <td>Np</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Plutonium</a></td>
+              <td>Plutonium</td>
               <td>94</td>
               <td>Pu</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Americium</a></td>
+              <td>Americium</td>
               <td>95</td>
               <td>Am</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Curium</a></td>
+              <td>Curium</td>
               <td>96</td>
               <td>Cm</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Berkelium</a></td>
+              <td>Berkelium</td>
               <td>97</td>
               <td>Bk</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Californium</a></td>
+              <td>Californium</td>
               <td>98</td>
               <td>Cf</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Einstinium</a></td>
+              <td>Einstinium</td>
               <td>99</td>
               <td>Es</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Fermium</a></td>
+              <td>Fermium</td>
               <td>100</td>
               <td>Fm</td>
-          </tr>		 
+          </tr>    
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Mendelevium</a></td>
+              <td>Mendelevium</td>
               <td>101</td>
               <td>Md</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Nobelium</a></td>
+              <td>Nobelium</td>
               <td>102</td>
               <td>No</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a   >Lawrencium</a></td>
+              <td>Lawrencium</td>
               <td>103</td>
               <td>Lr</td>
-  		  </tr>
+        </tr>
       </table>
+
+
+	  <br />
 	  
 	  <br /><h5 style="text-align:center;">Check out the videos below!</h5>
       <table>
@@ -238,15 +249,15 @@ table.sortable tbody tr::before {
 			  </td>
           </tr>
       </table>
-
-	  <br />
-	  <h4 style="text-align:center;">What do you do with a sick chemist?</h4>
-	  <h4 id="punchline" style="display: none; text-align:center">If you can't Helium, and you can't Curium, then you might as well Barium.</h4>
-	  <br />
 	  
-	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
+	  <br />
+    <h4 style="text-align:center;">What do you do with a sick chemist?</h4>
+    <h4 id="punchline" style="display: none; text-align:center">If you can't Helium, and you can't Curium, then you might as well Barium.</h4>
+    <br />
+    
+    <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
 	  
 	  <br /><br />
-
+	  	  
   </body>
 </html>
