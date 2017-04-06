@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="The periodic table of elements.">
+    <meta name="keywords" content="elements, periodic table, phases, families">
+    <link rel="shortcut icon" href="WebImages/chemistry_logo.png">
+	
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Periodic Table of the Elements</title>
+
+	<link href="style.css" rel="STYLESHEET" type="text/css" /> 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+     <style>
+
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+           }
+
+        td, th {
+            text-align: left;
+            padding: 8px;
+            }
+
+        tr:nth-child(even) {
+        background-color: #dddddd;
+            }
+
+		h3.myIntroTitle {
+			padding-left: 50px;
+			floa: left;
+			}
+		p.myIntroduction {
+			padding-left: 50px;
+			float: left;
+			}
+		
+		.inline { 
+			width: 30%;
+			display: inline-block;
+			}
+			
+		.characteristics {
+			list-style-type: square;
+			}
+		
+		.charli {
+			background-color: blue;
+			}
+
+		button{
+			margin:auto;
+			display:block;
+			}
+
+		button{
+			padding:16px 32px;
+			font-size:22px;
+			font-weight:500;
+			color: white;
+			background: #333;
+			border:0;
+			font-weight:100;
+			}
+
+		button:hover{
+			background: #69D9E4;
+			color: black;
+			}
+		table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+		content: " \25B4\25BE" 
+		}		
+		table.sortable tbody {
+    counter-reset: sortabletablescope;
+}
+table.sortable thead tr::before {
+    content: "";
+    display: table-cell;
+}
+table.sortable tbody tr::before {
+    content: counter(sortabletablescope);
+    counter-increment: sortabletablescope;
+    display: table-cell;
+}
+			
+      </style>   
+  </head>
+  <body>
+    <h1>Periodic Table of the Elements</h1>
+
+
+      <ul>
+
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="element.html">Element</a></li>
+          <li><a href="family.html">Family</a></li>
+          <li><a href="phase.html">Phase</a></li>
+		  
+      </ul>   
+
+      <br>
+      <h2 align="center" style="color: white; background-color: gray; margin-top: 10px; margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px"><b>Actinides</b></h2>
+	  <br />
+	  
+	        <table>
+          <tr style="background-color: white">
+              <td style="text-align:center" rowspan="1"><img src="WebImages/actinide.png" alt="Actinide" id="actinideID" width=100% /></td>
+			  <td colspan="4"><h3><b>Common Characteristics</b></h3></td>
+			  <td></td>
+			  <td></td>
+          </tr>
+		  <tr style="background-color: white">
+			  <td>Radioactive</td>
+			  <td>Unstable</td>
+			  <td>Synthetically produced</td>
+			  <td>Metallic</td>
+		  </tr>
+		  <tr style="background-color: white">
+			  <td>Silver or Silvery-White</td>
+			  <td>Hazardous</td>
+			  <td>Pyrophoric</td>
+			  <td>Very Dense</td>
+		  </tr>
+		  <tr style="background-color: white">
+			  <td>Soft</td>
+			  <td>Malleable</td>
+			  <td>Ductile</td>
+			  <td>Paramagnetic</td>
+		  </tr>
+		  <tr style="background-color: white">
+			  <td>Solid at room temperature and pressure</td>
+			  <td>Prone to hybridization</td>
+			  <td>Water soluble</td>
+			  <td>Used in smoke detectors</td>
+		  </tr>
+      </table>
+
+	  <br /><h3 style="text-align:center;"><b>Meet the Family</b></h3><br />
+
+		<table class="sortable">
+          <tr style="background-color: black; color: white">
+              <th>Name</th>
+              <th>Atomic Number</th>
+              <th>Symbol</th>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Actinium</a></td>
+              <td>89</td>
+              <td>Ac</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Thorium</a></td>
+              <td>90</td>
+              <td>Th</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Protactinium</a></td>
+              <td>91</td>
+              <td>Pa</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Uranium</a></td>
+              <td>92</td>
+              <td>U</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Neptunium</a></td>
+              <td>93</td>
+              <td>Np</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Plutonium</a></td>
+              <td>94</td>
+              <td>Pu</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Americium</a></td>
+              <td>95</td>
+              <td>Am</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Curium</a></td>
+              <td>96</td>
+              <td>Cm</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Berkelium</a></td>
+              <td>97</td>
+              <td>Bk</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Californium</a></td>
+              <td>98</td>
+              <td>Cf</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Einstinium</a></td>
+              <td>99</td>
+              <td>Es</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Fermium</a></td>
+              <td>100</td>
+              <td>Fm</td>
+          </tr>		 
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Mendelevium</a></td>
+              <td>101</td>
+              <td>Md</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Nobelium</a></td>
+              <td>102</td>
+              <td>No</td>
+          </tr>
+          <tr style="border-bottom: 1px solid black">
+              <td><a   >Lawrencium</a></td>
+              <td>103</td>
+              <td>Lr</td>
+  		  </tr>
+      </table>
+	  
+	  <br /><h5 style="text-align:center;">Check out the videos below!</h5>
+      <table>
+          <tr>
+              <td style="text-align:center">
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/mLUrHxfDewk" frameborder="0" allowfullscreen></iframe>
+			  </td>
+              <td style="text-align:center">
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/vF2lK4ONIVA" frameborder="0" allowfullscreen></iframe>
+			  </td>
+          </tr>
+      </table>
+
+	  <br />
+	  <h4 style="text-align:center;">What do you do with a sick chemist?</h4>
+	  <h4 id="punchline" style="display: none; text-align:center">If you can't Helium, and you can't Curium, then you might as well Barium.</h4>
+	  <br />
+	  
+	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
+	  
+	  <br /><br />
+
+  </body>
+</html>
