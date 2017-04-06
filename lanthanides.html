@@ -72,6 +72,21 @@
 			background: #69D9E4;
 			color: black;
 			}
+
+		table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+		content: " \25B4\25BE" 
+		}		
+		table.sortable tbody {
+    counter-reset: sortabletablescope;
+}
+table.sortable thead tr::before {
+    content: "";
+    display: table-cell;
+}
+table.sortable tbody tr::before {
+    content: counter(sortabletablescope);
+    counter-increment: sortabletablescope;
+    display: table-cell;
 			
       </style>   
   </head>
@@ -129,7 +144,7 @@
 	  <br /><h3 style="text-align:center;"><b>Meet the Family (Series) </b></h3><br />
 	  
 	  
-	 <table class="sortable">
+     <table class="sortable">
           <tr style="background-color: black; color: white">
               <th>Name</th>
               <th>Atomic Number</th>
