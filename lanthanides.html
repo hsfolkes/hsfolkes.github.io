@@ -14,12 +14,16 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 
+	<script src="sorttable.js"></script>
      <style>
 
-        table {
+                table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
-            width: 100%;
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+			
            }
 
         td, th {
@@ -27,9 +31,10 @@
             padding: 8px;
             }
 
-        tr:nth-child(even) {
-        background-color: #dddddd;
-            }
+		.normal {
+            text-align: left;
+            padding: 8px;
+            }			
 
 		h3.myIntroTitle {
 			padding-left: 50px;
@@ -87,6 +92,7 @@ table.sortable tbody tr::before {
     content: counter(sortabletablescope);
     counter-increment: sortabletablescope;
     display: table-cell;
+}
 			
       </style>   
   </head>
@@ -239,17 +245,17 @@ table.sortable tbody tr::before {
       <table>
           <tr>
               <td style="text-align:center">
-			  <iframe width="560" height="315" src="https://www.youtube.com/embed/HdWeZ3PTUxc?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/WF1kPUqqxyI" frameborder="0" allowfullscreen></iframe>
 			  </td>
               <td style="text-align:center">
-			  <iframe width="560" height="315" src="https://www.youtube.com/embed/EbkLp3-o78E?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
+			  <iframe width="560" height="315" src="https://www.youtube.com/embed/mrthB0n-Yd4" frameborder="0" allowfullscreen></iframe>
 			  </td>
           </tr>
       </table>
 
 	  <br />
-	  <h4 style="text-align:center;">They laughed when I said I wanted to make Stronium Sulfide...</h4>
-	  <h4 id="punchline" style="display: none; text-align:center">But I was SRS!</h4>
+	  <h4 style="text-align:center;">I think I've lost an electron...</h4>
+	  <h4 id="punchline" style="display: none; text-align:center">In fact I'm positive!</h4>
 	  <br />
 	  
 	  <button type="button" onclick="document.getElementById('punchline').style.display='block'">Click Me for the Punchline!</button>
