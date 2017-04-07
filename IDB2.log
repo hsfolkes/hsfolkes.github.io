@@ -1,3 +1,9 @@
+commit a3e6b2f6260df5e0c17a9a857de9bfb94178cd42
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 20:01:03 2017 -0500
+
+    LF replaces CRLF, IDB2 log added
+
 commit f4a14d5a2b7e32e82beaedb609f0e9733a576124
 Author: Emmanuel Limones <Emmanuel Limones>
 Date:   Thu Apr 6 19:50:14 2017 -0500
