@@ -53,9 +53,9 @@ def element():
 def family():
 	return render_template('family.html')
 
-@app.route('/flourine')
-def flourine():
-	return render_template('flourine.html')
+@app.route('/fluorine')
+def fluorine():
+	return render_template('fluorine.html')
 
 @app.route('/gas')
 def gas():
