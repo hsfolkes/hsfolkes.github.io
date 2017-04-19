@@ -45,11 +45,11 @@
 
     <ul>
 
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="element.html">Element</a></li>
-        <li><a class="active" href="family.html">Family</a></li>
-        <li><a href="phase.html">Phase</a></li>
+        <li><a href= {{ url_for("index") }} >Home</a></li>
+        <li><a href= {{ url_for("about") }} >About</a></li>
+        <li><a href= {{ url_for("element") }} >Element</a></li>
+        <li><a class="active" href={{ url_for("family") }} >Family</a></li>
+        <li><a href= {{ url_for("phase") }} >Phase</a></li>
 
     </ul>
 
@@ -70,53 +70,53 @@
             <th>Stable Phases</th>
         </tr>
         <tr>
-            <td><a href="alkalimetal.html">Alkali Metals</a></td>
+            <td><a href= {{ url_for("alkalimetal") }} >Alkali Metals</a></td>
             <td>IA</td>
             <td>6</td>
-            <td><a href="sodium.html">Sodium</a></td>
-            <td><a href="solid.html">Solid</a></td>
+            <td><a href= {{ url_for("sodium") }} >Sodium</a></td>
+            <td><a href= {{ url_for("solid") }} >Solid</a></td>
         </tr>
         <tr>
-            <td><a href="alkalineearthmetal.html">Alkaline Earth Metals</a></td>
+            <td><a href= {{ url_for("alkalineearthmetal") }} >Alkaline Earth Metals</a></td>
             <td>IIA</td>
             <td>6</td>
-            <td><a href="calcium.html">Calcium</a></td>
-            <td><a href="solid.html">Solid</a></td>
+            <td><a href= {{ url_for("calcium") }} >Calcium</a></td>
+            <td><a href= {{ url_for("solid") }} >Solid</a></td>
         </tr>
         <tr>
-            <td><a href="transitionmetal.html">Transition Metals</a></td>
+            <td><a href= {{ url_for("transitionmetal") }} >Transition Metals</a></td>
             <td>N/A</td>
             <td>38</td>
-            <td><a href="iron.html">Iron</a></td>
-            <td><a href="solid.html">Solid</a>, <a href="liquid.html">Liquid</a</td>
+            <td><a href= {{ url_for("iron") }} >Iron</a></td>
+            <td><a href= {{ url_for("solid") }} >Solid</a>, <a href= {{ url_for("liquid") }} >Liquid</a</td>
         </tr>
         <tr>
-            <td><a href="halogen.html">Halogens</a></td>
+            <td><a href= {{ url_for("halogen") }} >Halogens</a></td>
             <td>VIIA</td>
             <td>5</td>
-            <td><a href="fluorine.html">Fluorine</a></td>
-            <td><a href="solid.html">Solid</a>, <a href="liquid.html">Liquid</a>, and <a href="gas.html">Gas</a></td>
+            <td><a href= {{ url_for("fluorine") }} >Fluorine</a></td>
+            <td><a href= {{ url_for("solid") }} >Solid</a>, <a href= {{ url_for("liquid") }} >Liquid</a>, and <a href= {{ url_for("gas") }} >Gas</a></td>
         </tr>
         <tr>
-            <td><a href="noblegas.html">Noble Gases</a></td>
+            <td><a href= {{ url_for("noblegas") }} >Noble Gases</a></td>
             <td>VIIIA</td>
             <td>6</td>
-            <td><a href="argon.html">Argon</a></td>
-            <td><a href="gas.html">Gas</a></td>
+            <td><a href= {{ url_for("argon") }} >Argon</a></td>
+            <td><a href= {{ url_for("gas") }} >Gas</a></td>
         </tr>		
         <tr>
-            <td><a href="lanthanides.html">Lanthanides</a></td>
+            <td><a href= {{ url_for("lanthanides") }} >Lanthanides</a></td>
             <td>None</td>
             <td>15</td>
             <td><a >Cerium</a></td>
-            <td><a href="solid.html">Solid</a></td>
+            <td><a href= {{ url_for("solid") }} >Solid</a></td>
         </tr>
         <tr>
-            <td><a href="actinide.html">Actinides</a></td>
+            <td><a href= {{ url_for("actinide") }} >Actinides</a></td>
             <td>None</td>
             <td>15</td>
             <td><a >Uranium</a></td>
-            <td><a href="solid.html">Solid</a></td>
+            <td><a href= {{ url_for("solid") }} >Solid</a></td>
         </tr>
     </table>
 	<br /><br />

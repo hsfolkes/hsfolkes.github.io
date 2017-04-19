@@ -77,11 +77,11 @@
 
       <ul>
 
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="element.html">Element</a></li>
-          <li><a href="family.html">Family</a></li>
-          <li><a href="phase.html">Phase</a></li>
+          <li><a href= {{ url_for("index") }} >Home</a></li>
+          <li><a href= {{ url_for("about") }} >About</a></li>
+          <li><a href= {{ url_for("element") }} >Element</a></li>
+          <li><a href= {{ url_for("family") }} >Family</a></li>
+          <li><a href= {{ url_for("phase") }} >Phase</a></li>
 		  
       </ul>   
 
@@ -160,12 +160,12 @@
 			  <td style="border-bottom: 1px solid black;">200.59</td>
 		  </tr>
 		  <tr style="background-color: white;">
-			  <td style="text-align: right; border-bottom: 1px solid black;"><a href="family.html">Family</a></td>
-			  <td style="border-bottom: 1px solid black;"><a href="transitionmetal.html">Transition Metal</a></td>
+			  <td style="text-align: right; border-bottom: 1px solid black;"><a href= {{ url_for("family") }} >Family</a></td>
+			  <td style="border-bottom: 1px solid black;"><a href= {{ url_for("transitionmetal") }} >Transition Metal</a></td>
 		  </tr>
 		  <tr style="background-color: white;">
-			  <td style="text-align: right; border-bottom: 1px solid black;"><a href="phase.html">Phase</a></td>
-			  <td style="border-bottom: 1px solid black;"><a href="liquid.html">Liquid</a></td>
+			  <td style="text-align: right; border-bottom: 1px solid black;"><a href= {{ url_for("phase") }} >Phase</a></td>
+			  <td style="border-bottom: 1px solid black;"><a href= {{ url_for("liquid") }} >Liquid</a></td>
 		  </tr>
 		  <tr style="background-color: white;">
 			  <td style="text-align: right; border-bottom: 1px solid black;">CAS Number</td>

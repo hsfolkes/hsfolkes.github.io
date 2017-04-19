@@ -104,11 +104,11 @@ table.sortable tbody tr::before {
 
       <ul>
 
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="element.html">Element</a></li>
-          <li><a href="family.html">Family</a></li>
-          <li><a href="phase.html">Phase</a></li>
+          <li><a href= {{ url_for("index") }} >Home</a></li>
+          <li><a href= {{ url_for("about") }} >About</a></li>
+          <li><a href= {{ url_for("element") }} >Element</a></li>
+          <li><a href= {{ url_for("family") }} >Family</a></li>
+          <li><a href= {{ url_for("phase") }} >Phase</a></li>
 		  
       </ul>   
 
@@ -159,7 +159,7 @@ table.sortable tbody tr::before {
               <th>Symbol</th>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a href="mercury.html">Mercury</a></td>
+              <td><a href= {{ url_for("mercury") }} >Mercury</a></td>
               <td>80</td>
               <td>Hg</td>
           </tr>
@@ -194,7 +194,7 @@ table.sortable tbody tr::before {
               <td>Mn</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a href="iron.html"  >Iron</a></td>
+              <td><a href= {{ url_for("iron") }} >Iron</a></td>
               <td>26</td>
               <td>Fe</td>
           </tr>
@@ -259,7 +259,7 @@ table.sortable tbody tr::before {
               <td>Ag</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a href="cadmium.html">Cadmium</a></td>
+              <td><a href= {{ url_for("cadmium") }} >Cadmium</a></td>
               <td>48</td>
               <td>Cd</td>
           </tr>
@@ -299,7 +299,7 @@ table.sortable tbody tr::before {
               <td>Pt</td>
           </tr>
           <tr style="border-bottom: 1px solid black">
-              <td><a href="gold.html" >Gold</a></td>
+              <td><a href= {{ url_for("gold") }} >Gold</a></td>
               <td>79</td>
               <td>Au</td>
           </tr>

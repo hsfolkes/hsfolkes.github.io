@@ -45,11 +45,11 @@
 
     <ul>
 
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="element.html">Element</a></li>
-        <li><a href="family.html">Family</a></li>
-        <li><a class="active" href="phase.html">Phase</a></li>
+        <li><a href= {{ url_for("index") }} >Home</a></li>
+        <li><a href= {{ url_for("about") }} >About</a></li>
+        <li><a href= {{ url_for("element") }} >Element</a></li>
+        <li><a href= {{ url_for("family") }} >Family</a></li>
+        <li><a class="active" href= {{ url_for("phase") }} >Phase</a></li>
     </ul>
 
     <br>
@@ -69,21 +69,21 @@
             <th>Transition to Gas Phase</th>
         </tr>
         <tr>
-            <td><a href="solid.html">Solid</a></td>
+            <td><a href= {{ url_for("solid") }} >Solid</a></td>
 			<td>Holds Shape in Fixed Volume</td>
             <td></td>
             <td>Melting</td>
             <td>Sublimination</td>
         </tr>
         <tr>
-            <td><a href="liquid.html">Liquid</a></td>
+            <td><a href= {{ url_for("liquid") }} >Liquid</a></td>
             <td>Shape of Container in Fixed Volume</td>			
             <td>Freezing</td>
             <td></td>
             <td>Vaporization</td>
         </tr>
         <tr>
-            <td><a href="gas.html">Gas</a></td>
+            <td><a href= {{ url_for("gas") }} >Gas</a></td>
             <td>Shape of Container in Volume of Container</td>			
             <td>Deposition</td>
             <td>Condensation</td>
