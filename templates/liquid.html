@@ -97,13 +97,13 @@
 
       <ul>
 
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="element.html">Element</a></li>
-          <li><a href="family.html">Family</a></li>
-          <li><a href="phase.html">Phase</a></li>
-          <li><a href="solid.html">Phase</a></li>
-          <li><a href="gas.html">Phase</a></li>
+          <li><a href= {{ url_for("index") }} >Home</a></li>
+          <li><a href= {{ url_for("about") }} >About</a></li>
+          <li><a href= {{ url_for("element") }} >Element</a></li>
+          <li><a href= {{ url_for("family") }} >Family</a></li>
+          <li><a href= {{ url_for("phase") }} >Phase</a></li>
+          <li><a href= {{ url_for("solid") }} >Phase</a></li>
+          <li><a href= {{ url_for("gas") }} >Phase</a></li>
 		  
       </ul>   
 
@@ -115,7 +115,7 @@
 	  <div class="myIntroduction"><h3 style="padding-left: 50px"><b>About Liquids:</b></h3>
       <p style="padding-left: 50px">Liquid is one of the three foundamental states of matter. It is the only state that has a definite volume without a defined shape. This means that matter in a liquid state will conform to the shape of whatever container it is. For example, if you took a glass of water and poured it onto a flat table, the amount of water present (volume) would not change but the shape would be different. This is arguably the most unique aspect of liquids.
       </p>
-      <p style="padding-left: 50px">Liquids share similar properties with both <a href="solid.html">solids</a> and <a href="gas.html">gasses</a>. Like a solid, liquids are considered condensed matter and like gasses, liquids are considered to be fluid. The most common subtance found in liquid form is water. Although liquid water is the most common form of matter on planet Earth, the liquid <a href="phase.html">phase</a> is actually the least commonly found of the three states of matter in the Universe. This is becuase liquids only occur in a narrow temperature and pressure range.
+      <p style="padding-left: 50px">Liquids share similar properties with both <a href= {{ url_for("solid") }} >solids</a> and <a href= {{ url_for("gas") }} >gasses</a>. Like a solid, liquids are considered condensed matter and like gasses, liquids are considered to be fluid. The most common subtance found in liquid form is water. Although liquid water is the most common form of matter on planet Earth, the liquid <a href= {{ url_for("phase") }} >phase</a> is actually the least commonly found of the three states of matter in the Universe. This is becuase liquids only occur in a narrow temperature and pressure range.
       </p>
       <p style="padding-left: 50px">Additionally, liquids are a large part of the search for extraterrestrial life, as it is widely believed that water is a key foundation for the development of living beings. 
 	  </p>
