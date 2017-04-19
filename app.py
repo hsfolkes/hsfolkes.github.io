@@ -73,25 +73,45 @@ def halogen():
 def helium():
 	return render_template('helium.html')
 
-@app.route('/page3')
-def page3():
-	return render_template('page3.html')
+@app.route('/iron')
+def iron():
+	return render_template('iron.html')
 
-@app.route('/page3')
-def page3():
-	return render_template('page3.html')
+@app.route('/lanthanides')
+def lanthanides():
+	return render_template('lanthanides.html')
 
-@app.route('/page3')
-def page3():
-	return render_template('page3.html')
+@app.route('/liquid')
+def liquid():
+	return render_template('liquid.html')
 
-@app.route('/page3')
-def page3():
-	return render_template('page3.html')
+@app.route('/lithium')
+def lithium():
+	return render_template('lithium.html')
 
-@app.route('/page3')
-def page3():
-	return render_template('page3.html')
+@app.route('/mercury')
+def mercury():
+	return render_template('mercury.html')
+
+@app.route('/noblegas')
+def noblegas():
+	return render_template('noblegas.html')
+
+@app.route('/phase')
+def phase():
+	return render_template('phase.html')
+
+@app.route('/sodium')
+def sodium():
+	return render_template('sodium.html')
+
+@app.route('/solid')
+def solid():
+	return render_template('solid.html')
+
+@app.route('/transitionmetal')
+def transitionmetal():
+	return render_template('transitionmetal.html')
 
 
 if __name__ == '__main__':
