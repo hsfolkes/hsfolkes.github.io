@@ -212,11 +212,11 @@
 
 
       <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="element.html">Element</a></li>		  
-          <li><a href="family.html">Family</a></li>
-          <li><a href="phase.html">Phase</a></li>
+          <li><a class="active" href= {{ url_for ('index') }}>Home</a></li>
+          <li><a href= {{ url_for ('about')}}>About</a></li>
+          <li><a href= {{ url_for ('element')}}>Element</a></li>
+          <li><a href= {{ url_for ('family')}}>Family</a></li>
+          <li><a href= {{ url_for ('phase')}}>Phase</a></li>
       </ul>   
 
 <div class="container" style="background-color: black; width: 100%">
@@ -311,7 +311,7 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">2</div>
-        <div class="symbol"><a href="helium.html">He</a></div>
+        <div class="symbol"><a href= {{ url_for('helium') }}>He</a></div>
       </div>
     </div>
   </div>
@@ -319,7 +319,7 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">3</div>
-        <div class="symbol"><a href="lithium.html">Li</a></div>
+        <div class="symbol"><a href= {{ url_for('lithium') }}>Li</a></div>
       </div>
     </div>
     <div class="cell">
@@ -365,7 +365,7 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">9</div>
-        <div class="symbol"><a href="fluorine.html">F</a></div>
+        <div class="symbol"><a href= {{ url_for ('fluorine') }}>F</a></div>
       </div>
     </div>
     <div class="cell">
@@ -379,7 +379,7 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">11</div>
-        <div class="symbol"><a href="sodium.html">Na</a></div>
+        <div class="symbol"><a href= {{ url_for ('sodium') }}>Na</a></div>
       </div>
     </div>
     <div class="cell">
@@ -431,7 +431,7 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">18</div>
-        <div class="symbol"><a href="argon.html">Ar</a></div>
+        <div class="symbol"><a href= {{ url_for('argon')}}>Ar</a></div>
       </div>
     </div>
   </div>
@@ -445,7 +445,7 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">20</div>
-        <div class="symbol"><a href="calcium.html">Ca</a></div>
+        <div class="symbol"><a href= {{ url_for('calcium') }}>Ca</a></div>
       </div>
     </div>
     <div class="cell">
@@ -481,7 +481,7 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">26</div>
-        <div class="symbol"><a href="iron.html">Fe</a></div>
+        <div class="symbol"><a href= {{ url_for('iron') }}>Fe</a></div>
       </div>
     </div>
     <div class="cell">
@@ -615,7 +615,7 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">48</div>
-        <div class="symbol"><a href="cadmium.html">Cd</a></div>
+        <div class="symbol"><a href= {{ url_for('cadmium') }}>Cd</a></div>
       </div>
     </div>
     <div class="cell">
@@ -714,13 +714,13 @@
     <div class="cell">
       <div class="element">
         <div class="at_num">79</div>
-        <div class="symbol"><a href="gold.html">Au</div>
+        <div class="symbol"><a href= {{ url_for ('gold') }}>Au</div>
       </div>
     </div>
     <div class="cell">
       <div class="element">
         <div class="at_num">80</div>
-        <div class="symbol"><a href="mercury.html">Hg</a></div>
+        <div class="symbol"><a href= {{ url_for ('mercury') }}>Hg</a></div>
       </div>
     </div>
     <div class="cell">
@@ -1065,28 +1065,38 @@
 		                <h2>Families:</h2>
           </tr>
           <tr>
-              <td><a href="alkalimetal.html" class="padding" style="font-size: 30px">Alkali Metals   </a></td>
+              <td><a href= {{ url_for('alkalimetal')}} class="padding" style="font-size: 30px">Alkali Metals   </a></td>
           </tr>
           <tr>
-              <td><a href="alkalineearthmetal.html" class="padding" style="font-size: 30px">Alkaline Earth Metals   </a></td>
+              <td><a href= {{ url_for('alkalineearthmetal')}} class="padding" style="font-size: 30px">Alkaline Earth Metals   </a></td>
           </tr>
           <tr>
-              <td><a href="halogen.html" class="padding" style="font-size: 30px">Halogens  </a></td>
+              <td><a href= {{ url_for('transitionmetal')}} class="padding" style="font-size: 30px">Transition Metals   </a></td>
+          </tr>
+		  <br />
+          <tr>
+              <td><a href= {{ url_for('halogen')}} class="padding" style="font-size: 30px">Halogens  </a></td>
           </tr>
           <tr>
-              <td><a href="noblegas.html" class="padding" style="font-size: 30px">Noble Gases</a></td>
+              <td><a href= {{ url_for('noblegas')}} class="padding" style="font-size: 30px">Noble Gases</a></td>
+          </tr>
+          <tr>
+              <td><a href= {{ url_for('lanthanides')}} class="padding" style="font-size: 30px">Lanthanides   </a></td>
+          </tr>
+          <tr>
+              <td><a href= {{ url_for('actinide')}} class="padding" style="font-size: 30px">Actinides   </a></td>
           </tr>
 		  
 		                <h2>Phases:</h2>
           </tr>
           <tr>
-              <td><a href="solid.html" class="padding" style="font-size: 30px">Solid   </a></td>
+              <td><a href= {{ url_for('solid')}} class="padding" style="font-size: 30px">Solid   </a></td>
           </tr>
           <tr>
-              <td><a href="liquid.html" class="padding" style="font-size: 30px">Liquid  </a></td>
+              <td><a href= {{ url_for('liquid')}} class="padding" style="font-size: 30px">Liquid  </a></td>
           </tr>
           <tr>
-              <td><a href="gas.html" class="padding" style="font-size: 30px">Gas</a></td>
+              <td><a href= {{ url_for('gas')}} class="padding" style="font-size: 30px">Gas</a></td>
           </tr>
       </section>
 	  
