@@ -95,6 +95,37 @@ table.sortable tbody tr::before {
     counter-increment: sortabletablescope;
     display: table-cell;
 }
+section{
+    text-align: center;
+    }
+
+          li {
+              float: left;
+          }
+
+              li a {
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+              }
+
+                  li a:hover:not(.active) {
+                      background-color: #111;
+                  }
+
+          .active {
+              background-color: #69D9E4;
+          }
+
+                ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+          }
 			
       </style>   
   </head>
@@ -104,19 +135,18 @@ table.sortable tbody tr::before {
 
       <ul>
 
-<<<<<<< HEAD
           <li><a href= {{ url_for("index") }} >Home</a></li>
           <li><a href= {{ url_for("about") }} >About</a></li>
           <li><a href= {{ url_for("element") }} >Element</a></li>
           <li><a href= {{ url_for("family") }} >Family</a></li>
           <li><a href= {{ url_for("phase") }} >Phase</a></li>
-=======
+
           <li><a href= {{ url_for('index')}}>Home</a></li>
           <li><a href= {{ url_for('about')}}>About</a></li>
           <li><a href= {{ url_for ('element')}}>Element</a></li>
           <li><a href={{ url_for ('family')}}>Family</a></li>
           <li><a href={{ url_for ('phase')}}>Phase</a></li>
->>>>>>> eb2f7adddaff9d04b213774f1b72cfff9972a42e
+
 		  
       </ul>   
 

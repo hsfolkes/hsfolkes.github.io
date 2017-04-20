@@ -35,6 +35,50 @@
 		table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
 		content: " \25B4\25BE" 
 		}	
+
+    .pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+section{
+    text-align: center;
+    }
+
+          li {
+              float: left;
+          }
+
+              li a {
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+              }
+
+                  li a:hover:not(.active) {
+                      background-color: #111;
+                  }
+
+          .active {
+              background-color: #69D9E4;
+          }
+
+                ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+          }
+</style>
       </style>   
   </head>
   <body>
@@ -57,6 +101,7 @@
       <div id="banner">
           <p style="text-align:center;"><img src="static/WebImages/element_logo.jpg" alt="Element Log" id="elementID" width=50% /></p> 
       </div>
+
 
       <table class="sortable">
           <tr style="background-color: white">
@@ -146,6 +191,7 @@
               <td>6.941</td>
 			  <td><a href= {{ url_for("alkalimetal") }} >Alkali Metal</a></td>
               <td><a href= {{ url_for("solid") }} >Solid</a></td>
+          </ul>
           </tr>		
       </table>
 	  <br /><br />
