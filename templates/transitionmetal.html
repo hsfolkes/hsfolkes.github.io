@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 
 	<!-- JavaScript for data table sortability-->
-    <script src="sorttable.js"></script>
+    <script src="static/js/sorttable.js"></script>
 		
      <style>
 
@@ -134,18 +134,11 @@ section{
 
 
       <ul>
-
-          <li><a href= {{ url_for("index") }} >Home</a></li>
-          <li><a href= {{ url_for("about") }} >About</a></li>
-          <li><a href= {{ url_for("element") }} >Element</a></li>
-          <li><a href= {{ url_for("family") }} >Family</a></li>
-          <li><a href= {{ url_for("phase") }} >Phase</a></li>
-
           <li><a href= {{ url_for('index')}}>Home</a></li>
           <li><a href= {{ url_for('about')}}>About</a></li>
-          <li><a href= {{ url_for ('element')}}>Element</a></li>
-          <li><a href={{ url_for ('family')}}>Family</a></li>
-          <li><a href={{ url_for ('phase')}}>Phase</a></li>
+          <li><a href= {{ url_for('element')}}>Element</a></li>
+          <li><a href={{ url_for('family')}}>Family</a></li>
+          <li><a href={{ url_for('phase')}}>Phase</a></li>
 
 		  
       </ul>   
@@ -190,7 +183,7 @@ section{
 
 	  <br /><h3 style="text-align:center;"><b>Meet the Family</b></h3><br />
 	  
-      <table class="sortable">
+      <table>
           <tr style="background-color: black; color: white">
               <th>Name</th>
               <th>Atomic Number</th>
