@@ -13,39 +13,65 @@
 	<link href="style.css" rel="STYLESHEET" type="text/css" /> 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
 	<!-- JavaScript for data table sortability-->
     <script src="sorttable.js"></script>
 	
+	<!-- Data table stuff-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+    $('#example').dataTable({"aLengthMenu": [[3, 5, -1], [3, 5, "All"]],
+    "pageLength": 3, "pagingType": "simple_numbers"});
+	});
+	</script>
+
+
 	<style>
-        table {
+	.table-striped tbody tr:nth-child(odd) td,
+	.table-striped tbody tr:nth-child(odd) th {
+	background-color: #dddddd;
+	}
+        .table-striped table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
             width: 100%;
+			border: none;
            } 
 
-        td, th {
-            text-align: left;
+        .table-striped tfoot th, tfoot td, thead th, thead td{
+            text-align: left ;
             padding: 8px;
+			border-top: none;
+			border-bottom: none;
             }
 
-        tr:nth-child(odd) {
-        background-color: #dddddd;
-            }
-		table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
-		content: " \25B4\25BE" 
-		}	
 
-    .pagination {
-    display: inline-block;
+	.dataTables_filter {
+   width: 50%;
+   float: right;
+   text-align: right;
+   padding-right: 0.25em;
 }
-
-.pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-}
+		.dataTables_wrapper .dataTables_paginate {
+		float: center;
+		text-align: center;
+		padding-top: 0.25em;
+		}
+	.dataTables_wrapper .dataTables_paginate .paginate_button {
+	box-sizing: border-box;
+	display: inline-block;
+	min-width: 1.5em;
+	padding: 0.5em 1em;
+	margin-left: 2px;
+	text-align: center;
+	text-decoration: none !important;
+	cursor: pointer;
+	*cursor: hand;
+	color: #333333 !important;
+	}
 
 section{
     text-align: center;
@@ -78,6 +104,7 @@ section{
               overflow: hidden;
               background-color: #333;
           }
+		  
 </style>
       </style>   
   </head>
@@ -102,8 +129,9 @@ section{
           <p style="text-align:center;"><img src="static/WebImages/element_logo.jpg" alt="Element Log" id="elementID" width=50% /></p> 
       </div>
 
-
-      <table class="sortable">
+		<div class="table-responsive">
+      <table id="example" class="display table; table-striped" >
+	  <thead>
           <tr style="background-color: white">
               <th>Name</th>
               <th>Atomic Number</th>
@@ -112,6 +140,8 @@ section{
 			  <th>Family</th>
               <th>Stable Phase</th>
           </tr>
+		  </thead>
+		  <tbody>
           <tr>
               <td><a href= {{ url_for("argon") }} >Argon</a></td>
               <td>18</td>
@@ -191,9 +221,10 @@ section{
               <td>6.941</td>
 			  <td><a href= {{ url_for("alkalimetal") }} >Alkali Metal</a></td>
               <td><a href= {{ url_for("solid") }} >Solid</a></td>
-          </ul>
           </tr>		
+		  </tbody>
       </table>
+	  </div>
 	  <br /><br />
   </body>
 </html>
