@@ -1,0 +1,1182 @@
+commit 3567d55abc95cfff1a94fc095122927f34a88351
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 19:48:08 2017 -0500
+
+    updated number of commits
+
+commit c94c91eae2700a89259e927aec766fceefc11d6c
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 19:46:02 2017 -0500
+
+    adding about page because sarah happened
+
+commit c8097fd9177f0eac5502bd2a21c0d55b7910410a
+Merge: 8821458 06376a3
+Author: root <root@project5.localdomain>
+Date:   Fri Apr 21 00:39:57 2017 +0000
+
+    trying to right wrongs
+
+commit 06376a36d67ed085d1e7c04f99b543ce6ced7faf
+Merge: 1fb15ad a61e557
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 19:35:08 2017 -0500
+
+    updated about page
+
+commit 1fb15adaa49b0da533301521172842303f6a62ac
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 19:32:35 2017 -0500
+
+    updated number of commits and issues
+
+commit a61e5570829264f6d45fb2ed573f0cac59e2a503
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 18:52:26 2017 -0500
+
+    Updated some team responsibilities
+
+commit 51e5370bbf23c7dd19f6e9fb17d3018775b99d6d
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 18:40:05 2017 -0500
+
+    fixed type
+
+commit 64a2a405bcd9e12f0a72fa200f10421c627cf453
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 18:38:58 2017 -0500
+
+    added pagination & search bar to transition metal table
+
+commit 8821458e5faf04ee997572a6a67c0f86fb15a294
+Merge: c3e73d7 994557f
+Author: root <root@project5.localdomain>
+Date:   Thu Apr 20 23:27:58 2017 +0000
+
+    Merge branch 'master' of https://github.com/hsfolkes/hsfolkes.github.io
+
+commit 994557fa43ff1f9193c45e638a86e81685300f45
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 18:27:26 2017 -0500
+
+    sortability of transition metal table
+
+commit 4b4dbdf5fa494b2ecf3d214b7f6afec4ce3a8852
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 18:22:28 2017 -0500
+
+    Fixed navigation bar
+
+commit c3e73d769209034e6210cd27e3e28fb4a4a7f130
+Merge: c3c99ac 393be63
+Author: root <root@project5.localdomain>
+Date:   Thu Apr 20 23:21:58 2017 +0000
+
+    Merge branch 'master' of https://github.com/hsfolkes/hsfolkes.github.io
+
+commit c3c99acad48a02cb88030f297a343aeaf4264b4b
+Author: root <root@project5.localdomain>
+Date:   Thu Apr 20 23:21:37 2017 +0000
+
+    add issues
+
+commit 393be630e99e3bdae1c57bf705a4c88aacbe3e26
+Merge: 4e5d53a 28e2972
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 18:09:31 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit 4e5d53a2984ddf0d01604021d74ad98c43117ae9
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 18:09:14 2017 -0500
+
+    Fixed links
+
+commit 28e297226786d92216df282bf64aa9f4f02d2d46
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 18:00:25 2017 -0500
+
+    removed iron link
+
+commit fe5b0e683f51ecd0fd45660941c89c0913cc2723
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 17:51:06 2017 -0500
+
+    confused
+
+commit c300cecf7f5cbb5b07190db8364d91d9986dd3a0
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 17:49:16 2017 -0500
+
+    updated index page
+
+commit 1a5e4787311cf92b360338fb86d174486892b858
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 11:36:10 2017 -0500
+
+    fixed sortability
+
+commit 12c083697be8c242a5acac45d4e49a870d865ebc
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 20 11:30:57 2017 -0500
+
+    fixed sortability
+
+commit 22686e4c9b007c0ef4ba6c7289721e344dc1a2de
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 09:05:57 2017 -0500
+
+    minor modification to phase table
+
+commit 4506e83f31ea2a40dc8d97a87363d14cf2d8cce6
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 09:00:25 2017 -0500
+
+    restructure phase table
+
+commit 339984f53b5b65f3cf2ba6d44923cb65df507874
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 08:59:02 2017 -0500
+
+    Pagination & sorting for family table.
+
+commit 1a6ea197146b34cc9d3baee48af84beec034e7ad
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Apr 20 08:58:02 2017 -0500
+
+    Pagination & sorting for element table
+
+commit 10186ff63abbec3156b37ea0fa25d65a4d2521bb
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 20:36:56 2017 -0500
+
+    menu bar bug fix
+
+commit 28c09f0fff22ffeaaedbbf55634c9e3634f09108
+Merge: b1dd596 d9c4a0d
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 20:09:12 2017 -0500
+
+    changed css source
+
+commit b1dd596782832cc11c53f0d18dd4d908310a4718
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 20:08:33 2017 -0500
+
+    changing css source
+
+commit d9c4a0d209c9a95b81735c7dd5c5c9fcf625d55c
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 19:43:38 2017 -0500
+
+    fixed bug
+
+commit d399729d2824cb4ce0c7871bb82ea32f2a2b926f
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 19:43:28 2017 -0500
+
+    fixed bug
+
+commit 803a21558a4bc87e7d451b5edad043cae9b0cbb3
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 19:43:12 2017 -0500
+
+    fix bug
+
+commit 16a4a7c41c5493941ef086603e0ca5f19f929498
+Merge: 02c4863 f4f46c7
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 19:03:19 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit f4f46c7043925bf2ede7727bc5b06b0a3389e3a8
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Wed Apr 19 19:03:02 2017 -0500
+
+    images
+
+commit 02c48630f631d34af84da4e6abfe7f0d391637ea
+Merge: 5dfaff8 e9bf916
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 19:02:58 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit 5dfaff83bbebdc5a9337bbe0d4c13c2fb1e0f539
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 19:02:53 2017 -0500
+
+    updated image filepath
+
+commit e9bf91687f25e8f3a5b7fa861b92d7201c0a3dc6
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 19:02:25 2017 -0500
+
+    changed images to Flask compatible
+
+commit 825daf471479a6627f41cc2f264f02261cafc771
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 19:02:13 2017 -0500
+
+    changed images to be Flask compatible
+
+commit b5954edd055e568ce69f3ee2a6ea6756df2a3cfa
+Merge: 13d322b 9664aaa
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 18:59:13 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/hsfolkes.github.io
+
+commit 13d322b7bb6d71673375f9dc99d002ba3c337b6c
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 18:59:01 2017 -0500
+
+    changed images to be Flask compatible
+
+commit 9664aaaac5f09e7cd96046abecd34bcd5eacb75a
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Wed Apr 19 18:58:50 2017 -0500
+
+    halogen helium
+
+commit 61bb8ba5296a60bfe42ca2829785a1914607ee1c
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Wed Apr 19 18:56:14 2017 -0500
+
+    gold
+
+commit e78731a9414320588591ca92bab5258018d5d648
+Merge: 460153f 7f825e8
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 18:54:43 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit 7f825e89264458017d320a7f47a51f98d44cbf69
+Merge: 54ee8c4 ba54251
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 18:53:53 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/hsfolkes.github.io
+
+commit 54ee8c410382b0c2ad2ae78e21b6b82b46f31ba5
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 18:53:18 2017 -0500
+
+    add virtual environment files
+
+commit 460153f791690e7dd9b892ef501026e57374cb58
+Merge: 30de55e ba54251
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 18:52:01 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit 5bf959fad49b9bd9283426e1d2519bc7bfef0f2a
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 18:51:12 2017 -0500
+
+    Updated images to be Flask compatible
+
+commit ba5425137c8393e39312d58fe06de1f145777d6e
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Wed Apr 19 18:50:26 2017 -0500
+
+    image adj
+
+commit 30de55e18f9eec2c7e9d134d0d661ce62a930bae
+Merge: ff05a1f dec32db
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 18:49:57 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit dec32db934018311c93af432f7a7aaf55bc5579b
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 18:49:51 2017 -0500
+
+    fixed images to be Flask compatibile
+
+commit ff05a1f1f881f1d9bf19223397dad52c807108e5
+Merge: 2ce62a4 11fcdd7
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 18:49:26 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit 2ce62a4e67584250acf3e0658b7b9763ebe97062
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 18:49:13 2017 -0500
+
+    updated image links
+
+commit 11fcdd7dfb4949db5e8ee58dfab14fc049dee9c8
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Wed Apr 19 18:11:35 2017 -0500
+
+    iron lanthanides liquid lithium
+
+commit 0401f0ecbb5266f6073d713da35d05cec6b12e92
+Merge: 9971607 eb2f7ad
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 18:08:27 2017 -0500
+
+    updated internal links
+
+commit 9971607dd5137950ea86a6bd93da1cbd5b46f26c
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 18:07:03 2017 -0500
+
+    updated internal links for Flask compatibility
+
+commit eb2f7adddaff9d04b213774f1b72cfff9972a42e
+Merge: 7f1f20f be8962e
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Wed Apr 19 17:58:03 2017 -0500
+
+    merging to mine
+
+commit 7f1f20f7b946f068904585dc8d809915c99f8e17
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Wed Apr 19 17:54:06 2017 -0500
+
+    iron updated
+
+commit be8962eca7511c616d3932346c2e14a88e1d0033
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 17:51:44 2017 -0500
+
+    Updated HTML links for Flask compatibility
+
+commit 43a2b495ac704fb04f2f9ca60fef3732b505d879
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 17:44:35 2017 -0500
+
+    Updated HTML links for Flask compatibility
+
+commit de64dfd7b2f4eeb4852a1092e78e32fdc8e6c126
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 17:41:32 2017 -0500
+
+    Updated HTML links for Flask compatibility
+
+commit 80f39717daee4ff0f62a151f4f0f52e485e8e5f5
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 17:41:10 2017 -0500
+
+    fixed bug in strucutre
+
+commit 1ec75c04a9a040453df0ac85c0213866dfd6a0c6
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 17:06:09 2017 -0500
+
+    updated HTML links to be Flask compatible
+
+commit 7745d7e0ebafef2617bb6cae2c0122acacb26ad6
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 16:58:40 2017 -0500
+
+    changed html linking for flask compatibility
+
+commit 1ec2a6127c2e96c0f188e734d401661f268e9c39
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 16:55:49 2017 -0500
+
+    finished adding page structure (links)
+
+commit 419bfc486aa70199cd996a1a5ff4eee9505af99d
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 16:52:37 2017 -0500
+
+    started html reformatting for Flask compatibility
+
+commit 9945d32dcdeebe03c87d1c399d1eec7db8c3526f
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Wed Apr 19 16:52:11 2017 -0500
+
+    added file
+
+commit cd5c2d69b893cab4849810e554957a451d7b9fd7
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 19 16:06:50 2017 -0500
+
+    updated file structure
+
+commit f0ff07fc7c8b408bf973d563b8fdd9e4ad94cedc
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Sun Apr 16 20:39:30 2017 -0500
+
+    changed file structure
+
+commit 862ebe3ec808f8f4fd5a0ccafb88013e0ef16cbd
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 21:12:08 2017 -0500
+
+    updated About page, minor bug fixes
+
+commit 2089f68413e67130339ab0328bfa3c5d67bbe43c
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 20:11:11 2017 -0500
+
+    updated log and about pg commits
+
+commit a3e6b2f6260df5e0c17a9a857de9bfb94178cd42
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 20:01:03 2017 -0500
+
+    LF replaces CRLF, IDB2 log added
+
+commit f4a14d5a2b7e32e82beaedb609f0e9733a576124
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 19:50:14 2017 -0500
+
+    fixed unwanted circles on diagram
+
+commit d67fc41b1903ef815dbae094ec8d4e6c95bcd134
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 19:42:25 2017 -0500
+
+    updated tech report diagram
+
+commit 36d79c27c90bc28dad5edb730481a7686b544b88
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 19:40:58 2017 -0500
+
+    added link cd
+
+commit 14e9e7474dade9780fd82333e736ef3bf5f457e6
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 19:36:35 2017 -0500
+
+    index added lit
+
+commit f97767714d7cd15a799b9839af8720b31092228f
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 19:34:29 2017 -0500
+
+    procure the html
+
+commit a64b003232ee8c527988f59bb789ce155d5464a0
+Merge: a7cf289 9c31c10
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 19:20:29 2017 -0500
+
+    merge?
+
+commit a7cf28946c236ba329ebac70346e8b2e94e23285
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 19:17:20 2017 -0500
+
+    added to elements page
+
+commit 1a32b14bff4ee6e0b0c3db595bfaaaa23c9c0395
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 19:07:52 2017 -0500
+
+    jokester
+
+commit 9c31c10b5dfac565282055d2d1179f83dd3efeac
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 19:07:12 2017 -0500
+
+    moved cadmium page to correct folder
+
+commit 13969ab75de4153b2a2d9a1a9303556e98eb531e
+Merge: 491c20e 006182d
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 19:03:08 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit 006182da5784ab1383abb3cc0fe7e972ff884583
+Author: Sarah Moor <sarahmoor94@gmail.com>
+Date:   Thu Apr 6 19:02:33 2017 -0500
+
+    update commits
+
+commit 491c20eadc20c46c96889ac2c28ac839d89eb559
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 19:01:33 2017 -0500
+
+    added lithium page to correct folder
+
+commit 50889cdc6406e267587072bdc471ce3ddc7c6146
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 18:58:42 2017 -0500
+
+    cad html
+
+commit 5f1e7ab1adddcf01a035cea7beb57cfee928ff75
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 18:56:13 2017 -0500
+
+    lith nfpa
+
+commit 0829fa2e5f5d534e133fe2a0c847ffabd4c98b1e
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 18:52:15 2017 -0500
+
+    lithium html
+
+commit 59ddaa3bceeb1f0c4743a36559032bdf616cf7e4
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 18:51:13 2017 -0500
+
+    cad png
+
+commit 51de660a7e84939be839b436f95a643d8745bdcb
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 18:50:12 2017 -0500
+
+    cadmium nfpa
+
+commit 53afe8ea0a6dd24166dc92329888d8986ddf67d7
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Apr 6 18:48:52 2017 -0500
+
+    li
+
+commit 68f589996155fe1ade61b946fee73ea60e4e8734
+Author: Sarah Moor <sarahmoor94@gmail.com>
+Date:   Thu Apr 6 18:26:27 2017 -0500
+
+    Fixing Lanthanide sorting table
+
+commit ec0746647426a12053fe0c3f593bbedd7919ea69
+Merge: 7f7d62a be1e44d
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 18:13:07 2017 -0500
+
+    fixed sortable table
+
+commit 7f7d62a8a5c82cec422d060e938d60af1aac84c8
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 18:12:30 2017 -0500
+
+    fixed table to actually sort
+
+commit be1e44dcfba9b53e097084751ab1a2cb4b82492d
+Author: SarahMoor <sarahmoor94@gmail.com>
+Date:   Thu Apr 6 18:08:19 2017 -0500
+
+    Rename lathanides.html to lanthanides.html
+
+commit c139c4717c1208c9cb1d0176fe9de6e4951b7674
+Author: SarahMoor <sarahmoor94@gmail.com>
+Date:   Thu Apr 6 18:08:00 2017 -0500
+
+    Delete lanthanides.html
+
+commit 775aa47d4325751b24ac3278da8b3a73ab750dee
+Author: Sarah Moor <sarahmoor94@gmail.com>
+Date:   Thu Apr 6 18:01:31 2017 -0500
+
+    add lanthanide page!
+
+commit 5098c4c1f95d4da479a1fd3e95c69466f90035f6
+Merge: b58fad2 28aedd6
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 17:58:36 2017 -0500
+
+    general format fixes
+
+commit b58fad2ee7e4e6692dc1b0635d04c117da9df4d9
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 17:57:15 2017 -0500
+
+    added new familyentries to list
+
+commit 28aedd6e645bb477a32d1617d24156b0bec9b105
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 17:54:05 2017 -0500
+
+    udating Family Wiki Diagram
+
+commit 8a69b0a5ccb04db63c1560e020380859ee3a505f
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 17:51:45 2017 -0500
+
+    finished formatting of page
+
+commit 089dda28ed98f5643432f2e52e25526338d225d1
+Merge: 2061e16 fd64ed2
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 17:48:12 2017 -0500
+
+    please
+
+commit 2061e163eb8e92d6f29deba4df18d90a53225c49
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 17:44:29 2017 -0500
+
+    added family Actinide
+
+commit fd64ed2d3ad351ba669743cf68af6bbd9456d74e
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 17:43:19 2017 -0500
+
+    updating Element Wiki Diagram
+
+commit 1e10db33007a301a6a18c5ad31c083a6fb45c05e
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 17:11:39 2017 -0500
+
+    added actinide and lanthanide pictures
+
+commit 0d16b6e28648f7cf5f7d954634fa276ce826dc6b
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 15:29:01 2017 -0500
+
+    added Helium to page
+
+commit b3a859687159e3ce3701ff30c42e37b4245c2f0f
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 15:13:44 2017 -0500
+
+    added link from index to helium page
+
+commit 7d27904632abf0257b64d320a45d100b2a7e4fcf
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 15:13:05 2017 -0500
+
+    finished helium page
+
+commit fb62bf804b242f7c83eabbbb80c0b1daa5f4ae23
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 15:10:15 2017 -0500
+
+    finished helium page and added images
+
+commit e674c35922912da7901539701e17fbec3e01f61c
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Apr 6 14:44:26 2017 -0500
+
+    Added initial helium page
+
+commit 0ac72d9fbdba3dc70175b99b3aecb535ba820a99
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 12:37:00 2017 -0500
+
+    updated commit count
+
+commit 846367f98b04ccf9941c91d84170198fd3e00abf
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 12:36:05 2017 -0500
+
+    added interactive periodic table to Splash page
+
+commit 89195ce8ebdb17e701b943a67718549fe1675b0b
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Apr 6 10:28:59 2017 -0500
+
+    updated About page with commits and issues
+
+commit 884789f4fc1fd849b0f52f6dcd521a8d3b71e03c
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 5 20:53:57 2017 -0500
+
+    created Calcium page
+
+commit d66f05b7453ea9027bb613cb54a20922299c2616
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Apr 5 19:50:46 2017 -0500
+
+    added alkaline earth metals page
+
+commit 9e3e6297bf6603a71054ddbaf815a74492c02433
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Sun Apr 2 19:35:56 2017 -0500
+
+    Matched index font to other pages, this closes #36.
+
+commit 0bb7373dfe08e67505e57f59303d77a4c948d270
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Sun Apr 2 19:25:13 2017 -0500
+
+    Correct mercury info
+
+commit 46b7a2c6dde912215f3fd7a93dea4ecc05d39426
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Sun Apr 2 19:21:27 2017 -0500
+
+    Updated gold & mercury pages.
+
+commit 7e2c762ede67d261aa36fc3ed8a26c9d6e51b218
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Sun Apr 2 19:17:37 2017 -0500
+
+    Fixed images, closes #35
+
+commit a168d427c80722128f5fabb5ac0d05e9250b2bf3
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Sun Apr 2 19:11:51 2017 -0500
+
+    Added more table instances and individual web pages.
+
+commit 92b403fb63b83feb7160db51508c669990c13f5f
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Sun Apr 2 19:07:40 2017 -0500
+
+    Update about page.
+
+commit 7d76e8a7f8bfdb9c0742ea73ff80e295c0e8f028
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Sun Apr 2 19:05:57 2017 -0500
+
+    Makes tables sortable and closes #27, closes #28, closes #29.
+
+commit 26e03b60498d096c57d762e89385edede0bf112b
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 17:13:10 2017 -0500
+
+    updated log
+
+commit 4e3d656a36dc2c38eab8e90c6e48951a6d4a9dc2
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 17:10:57 2017 -0500
+
+    adding number of commits / issues
+
+commit 9a8a7ded35f1287672fa8b6335e18f40d20cc625
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 17:04:05 2017 -0500
+
+    adding log
+
+commit 614f9be4b6bdd2ef98d47ecbea5546421af239ff
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Mar 23 16:32:55 2017 -0500
+
+    added new paragrah
+
+commit fdd3168fefd904a3fcbbf1a819a9919ba32bf2de
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Mar 23 16:26:29 2017 -0500
+
+    fixed spelling mistake
+
+commit ae36b5195e88e3351fdf0da55917268468511cd8
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Mar 23 16:21:59 2017 -0500
+
+    added examples of liquids
+
+commit 97ee05309a0c91ac19201b6fc14fdd3414eff644
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Mar 23 16:21:31 2017 -0500
+
+    added bio for Kevin
+
+commit 20ebf4c5cabf8ea227fafd8e22c949f980d689ed
+Author: Kevin Pappas <kevinpappas@utexas.edu>
+Date:   Thu Mar 23 16:20:57 2017 -0500
+
+    added picture for about page
+
+commit c605a48d0a81746984872fb83caf01eca50fa917
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Thu Mar 23 12:45:13 2017 -0500
+
+    Changed the web icon for the liquid page
+
+commit 2b414ace09e6f9694f2b508e92897e51abf9f4d7
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 12:03:10 2017 -0500
+
+    added more Chemistry stuff to Index page
+
+commit 92a9cd11b22fd7dbc25377364dfdffb7f0466e7c
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 11:53:49 2017 -0500
+
+    added links to Index page
+
+commit c65e6d4901bf2f6ee21c79b587b18c8866bfd161
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 11:51:18 2017 -0500
+
+    added Javascript to Index
+
+commit 4c80458d51ee506b1b025cda25ca8639eca46721
+Merge: d94a73b 3cf4a62
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 11:45:14 2017 -0500
+
+    merged master fixed About page conflict
+
+commit 3cf4a6211361ae8c29ee82371dc4a68df05dc992
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 10:36:50 2017 -0500
+
+    added links to Home page
+
+commit 3bd662df5b678ac6f2239dccbc31e1c7b6a5eae0
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 10:15:44 2017 -0500
+
+    added Javascripts to Liquid page
+
+commit b578454c092187fd9a187333ef55ab80f5b38640
+Merge: 82f9a40 a649298
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 10:07:51 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit 82f9a40b73c4fbfade1e19f4b64145412ba86f0f
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 10:07:10 2017 -0500
+
+    added links between pages
+
+commit a649298e1155f2ff763d0da857d950bfd7be6d32
+Author: KPappas21 <kevinpappas@utexas.edu>
+Date:   Thu Mar 23 09:35:28 2017 -0500
+
+    Add files via upload
+
+commit adaafb01424bc8214c359671a75c3fb98c946208
+Author: KPappas21 <kevinpappas@utexas.edu>
+Date:   Thu Mar 23 09:34:55 2017 -0500
+
+    Add files via upload
+
+commit d94a73b27f476d2964e8469faed8dbbe0abbccfd
+Author: Emmanuel Limones <Emmanuel Limones>
+Date:   Thu Mar 23 02:47:31 2017 -0500
+
+    added splash
+
+commit 3abff04c45101ee7e273ac7d7326c512557d1d9e
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 02:15:23 2017 -0500
+
+    updated picture file type
+
+commit 2203f453a87e0a9ae42afecee568c6c1234070ee
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 02:12:57 2017 -0500
+
+    updated About page
+
+commit 322607a42b2c1d5f03e46794613c80cb12c297f0
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 02:11:01 2017 -0500
+
+    updated About page
+
+commit aab1b9c36a0015cbc50ca1cd340e6e42de26ee41
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 02:05:02 2017 -0500
+
+    changed Splash to Index
+
+commit 49c9de0f05ddaeb94f7897c01619483ec8fc7f77
+Author: hsfolkes <hsfolkes@utexas.edu>
+Date:   Thu Mar 23 01:45:12 2017 -0500
+
+    changed repository name
+
+commit a48319d658b1579ec5232c9c2c3dfb90c5c740cd
+Author: hsfolkes <hsfolkes@utexas.edu>
+Date:   Thu Mar 23 01:42:20 2017 -0500
+
+    create CNAME
+
+commit e844e24e68afb35032c3c51966171aeaafdb5ffb
+Merge: 3820b57 cab11b6
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 01:38:37 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit 3820b57f9b8dc7b352aa2f1578bd7d2a4dbb2812
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 01:38:12 2017 -0500
+
+    changed picture size on About page
+
+commit cab11b65b7abec51eaa81ec1201e1dc860100509
+Author: hsfolkes <hsfolkes@utexas.edu>
+Date:   Thu Mar 23 01:24:35 2017 -0500
+
+    Delete CNAME
+
+commit cc8b6359cd95750d0ed7b944002b4450367fb481
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 01:21:15 2017 -0500
+
+    made Solid page photo smaller
+
+commit c87ff2fff3748bd6320913085dd673ca6ad21b5e
+Merge: fe6bae2 fb0ec7a
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Thu Mar 23 01:15:53 2017 -0500
+
+    Merge branch 'master' of https://github.com/hsfolkes/cs329e-idb
+
+commit fe6bae228b110a680261bce369527cd12f8059b3
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 23:54:18 2017 -0500
+
+    made Gas page photo smaller
+
+commit eeb895bd472571af8f411fdcf0a3b0a1d1fe1e58
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 23:48:27 2017 -0500
+
+    modified Javascripts
+
+commit 0a4e31af31541c78f2afd2401482a6c6e42a9f9d
+Merge: 21df4b8 4dc81fe
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 23:30:37 2017 -0500
+
+    added Javascript functionality
+
+commit 21df4b8e2ba0f2424d3d96bd0baad509540538a1
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 23:18:58 2017 -0500
+
+    added Javascript functionality
+
+commit 4dc81feb598c77b99dc7a084c0eead39211dbc28
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Wed Mar 22 23:17:36 2017 -0500
+
+    Consolidated some css into style.css
+
+commit a09230328e18d8f41b3e3bcee37e624d80719c16
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Wed Mar 22 23:00:54 2017 -0500
+
+    Added icon picture
+
+commit dcc54b57d7803f0bcdf1e74650e5fde2eb2b8d78
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Wed Mar 22 22:55:16 2017 -0500
+
+    Added javascript to gas & solid pages
+
+commit f3c982aad3759f6a1443502c208b75268bc3c36c
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Wed Mar 22 22:51:44 2017 -0500
+
+    Added javascript buttons to family pages
+
+commit 00c38c3fd1c9eb7c6a60ceeb36996fbfeb57055a
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Wed Mar 22 22:48:28 2017 -0500
+
+    Added javascript button to individual elemen pages
+
+commit 5eff7bea4c3b58773554baffd16c5d6e581e2e45
+Merge: ba39f59 e09a9b9
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Wed Mar 22 22:41:43 2017 -0500
+
+    Updated About page
+
+commit ba39f5976d42b530f2e67a9e44d65b09dd3512e7
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Wed Mar 22 22:38:46 2017 -0500
+
+    Updated About page
+
+commit e09a9b9d5f948412938f1344c2543a0010071977
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 22:38:40 2017 -0500
+
+    minor color changes and Wiki link
+
+commit cc144d9479c0aad813b4ddcec22f3e439207a1f0
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 22:14:36 2017 -0500
+
+    updated About page
+
+commit 908b9df38bfd9fbb339b53c222e07b7626aa6b6b
+Author: Sarah Moor <sarahmoor94@gmail.com>
+Date:   Wed Mar 22 21:53:47 2017 -0500
+
+    adding gas and solid phases
+
+commit d4dc27090a366c5ad0e95678c933f9280f2ddac9
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 20:57:41 2017 -0500
+
+    updated all Family pages
+
+commit e3ac4c88872ccba087226bd9652565d78890c71e
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 19:07:21 2017 -0500
+
+    created Alkali Metal page
+
+commit fb0ec7abd6d8e87864323f0c075f2c649f3760fd
+Author: hsfolkes <hsfolkes@utexas.edu>
+Date:   Wed Mar 22 17:35:24 2017 -0500
+
+    Added CNAME file for custom domain (theperiodicelementsofcomputing.me)
+
+commit f988a02114809315c4f7783af62baba3b5e3c037
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Wed Mar 22 01:59:14 2017 -0500
+
+    added Haley's major responsibilities
+
+commit 9b9471d846bb020a7877dd8c123d9a3ae2e4507e
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Tue Mar 21 23:40:33 2017 -0500
+
+    created Argon page and updated Family page
+
+commit 86acc2f55fe91b718985cbc4f7630c24dd4e531d
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Tue Mar 21 22:48:30 2017 -0500
+
+    created Fluorine page and added Fluorine link to Element page
+
+commit 8d9fbe54fce8e62ea6ece70cfc0b309a26a00cef
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Tue Mar 21 15:09:54 2017 -0500
+
+    completed Sodium page
+
+commit a23e01c93bebb4c28e8d9b2d49e5b8fb7cea9491
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Tue Mar 21 01:44:14 2017 -0500
+
+    added safety information to Sodium page
+
+commit 7bd5a835314216af78b3df244091b37e40842765
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 23:23:09 2017 -0500
+
+    updated Sodium page
+
+commit 296a36a5fa89472e3599825e9bc0f399fae5dba0
+Merge: 5b15b47 4f938bb
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 23:21:57 2017 -0500
+
+    Merge branch 'dev' of https://github.com/hsfolkes/cs329e-idb into dev
+
+commit 5b15b47e27777aa123109077dd614d7e04def6be
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 22:52:02 2017 -0500
+
+    added videos to Sodium page
+
+commit 4f938bb82932d76ffd83827ac1266911bfeb0647
+Merge: d64eede 0808262
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Mon Mar 20 22:51:24 2017 -0500
+
+    Added more to  splash page.
+
+commit d64eededc5dc056cf1601c6e02285e8b5b1cc5e5
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Mon Mar 20 22:48:40 2017 -0500
+
+    Added more to splash page.
+
+commit 08082626cf4154239a415dca8551deae80eea633
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 21:35:47 2017 -0500
+
+    added links to Sodium page
+
+commit 4a1dce61b4d754d8df8484d8969d293b3da2ff98
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 21:31:22 2017 -0500
+
+    added links from Sodium page
+
+commit b06b1bd1179e7ed8faea9880513566d9f05ddfc8
+Merge: bfdde72 29d2835
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 21:25:14 2017 -0500
+
+    Merge branch 'dev' of https://github.com/hsfolkes/cs329e-idb into dev
+
+commit bfdde723288f0cfafc305d6fa8e71f98a1f39c7e
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 21:24:45 2017 -0500
+
+    initialized Sodium and added links
+
+commit 29d2835ab033d121806eb973a54d6fcc2c1b7d0f
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Mon Mar 20 20:58:13 2017 -0500
+
+    Linked the phase page.
+
+commit 96bec54fe25bd0e6d88662bea5fbe86c931b7cc2
+Merge: 52349c3 12fb64e
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Mon Mar 20 20:52:38 2017 -0500
+
+    Linked pages and added splash template.
+
+commit 52349c309a934523153713a1ed2b41a3fa2d02ec
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Mon Mar 20 20:36:33 2017 -0500
+
+    Added template for splash page and linked pages.
+
+commit 12fb64ed673e63bb6c25ad5d33cd56afe9ef19fc
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 20:31:23 2017 -0500
+
+    changed Stable Phase to Phase
+
+commit 8ccdc612d13021412e538d4dec8fa14fd3ceeb42
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 20:29:57 2017 -0500
+
+    changed Stable Phase to Phase
+
+commit 2bfd3db5680113a9e25ea86a3307bbf697da2fcb
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 20:26:37 2017 -0500
+
+    added phase landing page
+
+commit e96c906d6a581eeaa0d780ae4358f02720eff1ee
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 16:28:09 2017 -0500
+
+    added bio for Haley
+
+commit 0df92510f1985368416aaf7f32619647cb279650
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 16:17:15 2017 -0500
+
+    added relevant titles
+
+commit c19f1e77a7ea1c7bd503aae698392f1fa4371dd9
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 16:14:58 2017 -0500
+
+    added information to Elements table
+
+commit 761b44e42aba56e56c62335c083ab5deab89b7b8
+Author: PCDEME\Haley <hsfolkes@gmail.com>
+Date:   Mon Mar 20 16:09:54 2017 -0500
+
+    added information to family table
+
+commit e1b9f0a486f8b83d52aaa738b0edd1ac082d78df
+Author: Isis Ramirez <isisramirez93@yahoo.com>
+Date:   Mon Mar 20 15:47:11 2017 -0500
+
+    Some templates
+
+commit 3a97baf40231a68d0cb5be52290edab69d9e96c7
+Author: hsfolkes <hsfolkes@utexas.edu>
+Date:   Mon Mar 20 14:07:56 2017 -0500
+
+    Initial commit
