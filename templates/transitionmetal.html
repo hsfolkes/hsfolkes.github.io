@@ -13,9 +13,20 @@
 	<link href="style.css" rel="STYLESHEET" type="text/css" /> 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css">
 	<!-- JavaScript for data table sortability-->
     <script src="static/js/sorttable.js"></script>
+	
+	<!-- Data table stuff-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+    $('#example').dataTable({"aLengthMenu": [[10, 15, -1], [10, 15, "All"]],
+    "pageLength": 10, "pagingType": "simple_numbers"});
+	});
+	</script>
 		
      <style>
 
@@ -183,12 +194,16 @@ section{
 
 	  <br /><h3 style="text-align:center;"><b>Meet the Family</b></h3><br />
 	  
-      <table>
+		<div class="table-responsive">
+      <table id="example" class="display table" >
+	  <thead>
           <tr style="background-color: black; color: white">
               <th>Name</th>
               <th>Atomic Number</th>
               <th>Symbol</th>
           </tr>
+		  </thead>
+		  <tbody>
           <tr style="border-bottom: 1px solid black">
               <td><a href= {{ url_for('mercury')}}>Mercury</a></td>
               <td>80</td>
@@ -379,7 +394,9 @@ section{
               <td>112</td>
               <td>Cn</td>
           </tr>
+		  </tbody>
       </table>
+	  </div>
 
 
 	  <br />
