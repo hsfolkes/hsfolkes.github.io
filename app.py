@@ -115,4 +115,4 @@ def transitionmetal():
 
 
 if __name__ == '__main__':
-	app.run() # Run application
+	app.run('107.170.28.172', '80') # Run application
